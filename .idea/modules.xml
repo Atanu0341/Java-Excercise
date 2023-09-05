@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/New folder.iml" filepath="$PROJECT_DIR$/New folder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/conditionals_loops/conditionals_loops.iml" filepath="$PROJECT_DIR$/conditionals_loops/conditionals_loops.iml" />
     </modules>
   </component>
 </project>
