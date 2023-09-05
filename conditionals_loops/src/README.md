@@ -40,7 +40,6 @@ public class AreaOfCircle_2 {
 
     }
 }
-
 ```
 3. Area Of Rectangle Program
 ```java
@@ -59,7 +58,6 @@ public class AreaOfRectangle_3 {
         System.out.println("Area of the rectangle : " +area);
     }
 }
-
 ```
 4. Area Of Isosceles Triangle
 ```java
@@ -81,7 +79,6 @@ public class AreaOfIsoscelesTriangle_4 {
         System.out.println("Area of the isosceles triangle: " + area);
     }
 }
-
 ```
 5. Area Of Parallelogram
 ```java
@@ -103,10 +100,24 @@ public class AreaOfParallelogram_5 {
         System.out.println("Area of the parallelogram: " + area);
     }
 }
-
 ```
 6. Area Of Rhombus
 ```java
+import java.util.Scanner;
+
+public class AreaOfRhombus_6 {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the length of one of the diagonals of the rhombus : ");
+        double d1 = in.nextDouble();
+        System.out.println("Enter the length of the other diagonal of the rhombus : ");
+        double d2 = in.nextDouble();
+
+        double area = (d1 * d2) / 2;
+
+        System.out.println("Area of the rhombus: " + area);
+    }
+}
 ```
 7. Area Of Equilateral Triangle
 ```java
