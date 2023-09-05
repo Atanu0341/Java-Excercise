@@ -3,33 +3,173 @@
 
 ### Basic Java Programs
 1. Area Of Circle Java Program
+```java
+import java.util.Scanner;
+
+public class AreaOfTriangle_1 {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the base of the triangle : ");
+        double base = in.nextDouble();
+        System.out.println("Enter the height of the triangle : ");
+        double height = in.nextDouble();
+
+        double area = (height*base)/2;
+
+        System.out.println("Area of the triangle : " +area);
+    }
+}
+```
 2. Area Of Triangle
+```java
+import java.util.Scanner;
+
+public class AreaOfCircle_2 {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the radius of the circle : ");
+        double radius = in.nextDouble();
+
+
+        double area = Math.PI * (radius*radius);
+
+        System.out.println("Area of the circle :" +area );
+
+
+
+
+    }
+}
+
+```
 3. Area Of Rectangle Program
+```java
+import java.util.Scanner;
+
+public class AreaOfRectangle_3 {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the length of the rectangle : ");
+        double length = in.nextDouble();
+        System.out.println("Enter the width of the rectangle : ");
+        double width = in.nextDouble();
+
+        double area = length*width;
+
+        System.out.println("Area of the rectangle : " +area);
+    }
+}
+
+```
 4. Area Of Isosceles Triangle
+```java
+import java.util.Scanner;
+
+public class AreaOfIsoscelesTriangle_4 {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.print("Enter the length of the base of the isosceles triangle: ");
+        double base = in.nextDouble();
+
+        System.out.print("Enter the height of the isosceles triangle: ");
+        double height = in.nextDouble();
+
+
+        double area = 0.5 * base * height;
+
+        System.out.println("Area of the isosceles triangle: " + area);
+    }
+}
+
+```
 5. Area Of Parallelogram
+```java
+import java.util.Scanner;
+
+public class AreaOfParallelogram_5 {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.print("Enter the length of the base of the parallelogram: ");
+        double base = in.nextDouble();
+
+        System.out.print("Enter the height of the parallelogram: ");
+        double height = in.nextDouble();
+
+
+        double area = base * height;
+
+        System.out.println("Area of the parallelogram: " + area);
+    }
+}
+
+```
 6. Area Of Rhombus
+```java
+```
 7. Area Of Equilateral Triangle
+```java
+```
 8. Perimeter Of Circle
+```java
+```
 9. Perimeter Of Equilateral Triangle
+```java
+```
 10. Perimeter Of Parallelogram
+```java
+```
 11. Perimeter Of Rectangle
+```java
+```
 12. Perimeter Of Square
+```java
+```
 13. Perimeter Of Rhombus
+```java
+```
 14. Volume Of Cone Java Program
+```java
+```
 15. Volume Of Prism
+```java
+```
 16. Volume Of Cylinder
+```java
+```
 17. Volume Of Sphere
+```java
+```
 18. Volume Of Pyramid
+```java
+```
 19. Curved Surface Area Of Cylinder
+```java
+```
 20. Total Surface Area Of Cube
+```java
+```
 21. Fibonacci Series In Java Programs
+```java
+```
 22. [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)
+```java
+```
 23. Input a number and print all the factors of that number (use loops).
+```java
+```
 24. Take integer inputs till the user enters 0 and print the sum of all numbers
     (HINT: while loop)
+```java
+```
 25. Take integer inputs till the user enters 0 and print the largest number from
     all.
+```java
+```
 26. Addition Of Two Numbers
+```java
+```
 
 ### Intermediate Java Programs
 1. Factorial Program In Java
